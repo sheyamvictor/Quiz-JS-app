@@ -1,0 +1,144 @@
+
+[
+    {
+        "question": "What is 2 + 2?",
+        "answers": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the capital of France?",
+        "answers": [
+            "Berlin",
+            "Madrid",
+            "Paris",
+            "Lisbon"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "answers": [
+            "Harper Lee",
+            "Mark Twain",
+            "Ernest Hemingway",
+            "F. Scott Fitzgerald"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the boiling point of water?",
+        "answers": [
+            "90°C",
+            "100°C",
+            "110°C",
+            "120°C"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "answers": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Claude Monet"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the largest planet in our Solar System?",
+        "answers": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "In which year did World War II end?",
+        "answers": [
+            "1942",
+            "1945",
+            "1946",
+            "1949"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "What is the capital of Japan?",
+        "answers": [
+            "Beijing",
+            "Seoul",
+            "Tokyo",
+            "Bangkok"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "What is the smallest prime number?",
+        "answers": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Who is known as the 'Father of Computers'?",
+        "answers": [
+            "Charles Babbage",
+            "Alan Turing",
+            "Isaac Newton",
+            "Albert Einstein"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "answers": [
+            "Au",
+            "Ag",
+            "Pb",
+            "Pt"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "answers": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Who developed the theory of relativity?",
+        "answers": [
+            "Isaac Newton",
+            "Galileo Galilei",
+            "Marie Curie",
+            "Albert Einstein"
+        ],
+        "correct": 3
+    },
+    {
+        "question": "What is the main ingredient in traditional Japanese sushi?",
+        "answers": [
+            "Bread",
+            "Rice",
+            "Noodles",
+            "Tofu"
+        ],
+        "correct": 1
+    }
+
+]

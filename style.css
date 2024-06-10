@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.first-page , .second-page,.result-page{
+background-color: rgb(207, 212, 216);
+padding: 10px;
+width: 100vw;
+height: 100vh;
+display:flex;
+flex-direction: column;
+gap: 10px;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.first-page h1{
+    text-align: center; 
+    text-shadow: 3px 2px 1px rgb(176, 176, 201);
+    color: rgb(9, 176, 214); 
+}
+
+.second-page h1 , .third-page h1{
+    text-align: center; 
+    color: rgb(9, 176, 214);
+     text-decoration: underline;
+}
+
+.list{
+background-color: beige;
+padding: 30px;
+border: solid rgb(214, 207, 207) 1px;
+border-radius: 5px;
+box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+list-style: none;
+
+}
+
+.list input{
+gap: 10px;
+width: 100%;
+padding: 5px;
+border: none;
+align-items: center;
+border-radius: 5px;
+}
+
+.btn1,.btn2{
+    background-color: rgb(17, 8, 76);
+    color: azure;
+    align-items: center;
+    margin-top: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.para{
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+
+.nlist{
+    list-style:none;
+}
+
+.third-page {
+    background-color: rgb(207, 212, 216);
+    padding: 10px;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pre ,.nex{
+    background-color: rgb(17, 8, 76);
+    color: azure;
+    align-items: center;
+    margin-top: 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer; 
+ 
+}
+
+.btn3{
+    gap: 10%;
+    justify-content: space-evenly;
+}
+
+.four-page{
+    text-align: center;
+    background-color: rgb(191, 194, 198);
+padding: 10px;
+
+}
+
+#answerContainer{
+    padding: 10px;
+    gap: 20px;
+    border: solid;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(52, 52, 64);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
