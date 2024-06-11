@@ -166,6 +166,12 @@ const initiasePage = (path) => {
 
             let selectAnswer = document.querySelector('input[name="answer"]:checked')
 
+            if (!selectAnswer) {
+                alert("Please select answer ! .");
+                return;
+            }
+        
+
             if (selectAnswer.value == selectQuestions[currentQuestionIdx].correct) {
 
                 mark++;
