@@ -9,8 +9,7 @@ body{
 }
 
 .first-page , .second-page,.result-page{
-background-color: rgb(207, 212, 216);
-padding: 10px;
+background-image: linear-gradient(to right, rgb(102, 217, 237), rgba(237, 80, 106, 0.688));padding: 10px;
 width: 100vw;
 height: 100vh;
 display:flex;
@@ -23,13 +22,13 @@ align-items: center;
 
 .first-page h1{
     text-align: center; 
-    text-shadow: 3px 2px 1px rgb(176, 176, 201);
-    color: rgb(9, 176, 214); 
+    text-shadow: 3px 2px 1px rgb(39, 39, 49);
+    color: rgb(12, 149, 179); 
 }
 
 .second-page h1 , .third-page h1{
     text-align: center; 
-    color: rgb(9, 176, 214);
+    color: rgb(56, 56, 238);
      text-decoration: underline;
 }
 
@@ -52,7 +51,7 @@ align-items: center;
 border-radius: 5px;
 }
 
-.btn1,.btn2{
+.btn1,.btn2 ,#Call{
     background-color: rgb(17, 8, 76);
     color: azure;
     align-items: center;
@@ -76,7 +75,7 @@ border-radius: 5px;
 }
 
 .third-page {
-    background-color: rgb(207, 212, 216);
+    background-color: rgb(159, 202, 237);
     padding: 10px;
     width: 100vw;
     height: 100vh;
@@ -88,37 +87,59 @@ border-radius: 5px;
     align-items: center;
 }
 
-.pre ,.nex{
-    background-color: rgb(17, 8, 76);
+ .nex,.prev{
+    background-color: rgb(108, 100, 164);
     color: azure;
+    flex-direction:column;
     align-items: center;
-    margin-top: 18px;
+    text-align: center;
+    width: 100px;
+    margin-top: 10px;
     border: none;
     font-weight: bold;
     border-radius: 5px;
-    padding: 5px;
+    padding:5px;
     cursor: pointer; 
+    
  
 }
 
+
+
 .btn3{
-    gap: 10%;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap:250px;
+    
 }
 
-.four-page{
-    text-align: center;
-    background-color: rgb(191, 194, 198);
-padding: 10px;
-
+.nex:hover , .prev:hover{
+    background-color: black;
 }
 
 #answerContainer{
+    display: grid;
+    grid-template-columns: repeat(2, calc(100vw/2));
+width: 100vmax;
+height: 100vh;
+    text-align: center;
     padding: 10px;
-    gap: 20px;
+    gap: 10px;
     border: solid;
-    border-radius: 10px;
-    width: 100%;
-    background-color: rgb(52, 52, 64);
+    border-radius: 1px;
+    background-color: rgb(199, 199, 243);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
+
+#questioncontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+
